@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(232,224,218);
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-product-img img {
+    width: 35vw;
+    border-radius: 1.5rem 1.5rem 0rem 0rem;
+}
+
+.description-box {
+    width: 35vw;
+    height: 500px;
+    background-color: white;
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+}
